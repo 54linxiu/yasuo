@@ -10,6 +10,7 @@ body{
 }
 .timg img{
     width: 100%;
+    height: 350px;
 }
 .head{
     width: 1920px;
