@@ -9,7 +9,7 @@ body{
     padding: 0;
 }
 .timg img{
-    width: 1900px;
+    width: 100%;
 }
 .head{
     width: 1920px;
@@ -51,7 +51,7 @@ body{
     left: 450px;
     margin: 0;
     padding: 0;
-    height: 340px;
+    height: 0;
     
 }
 .navigation ul{
@@ -180,9 +180,9 @@ body{
 }
 .bbxx{
     z-index: 1;
-    position: absolute;
+    position: relative;
     top: 280px;
-    right: 320px;
+    left: 1500px;
 }
 .bbxx span{
     color: #888787;
@@ -255,9 +255,10 @@ body{
 
 .small{
     
-    position:absolute;
-    top: 968px;
-    right: 320px;
+    position: relative;;
+    top: -80px;
+    right: -753px;
+    width: 530px;
 }
 
 .small ul,li{
@@ -268,8 +269,8 @@ body{
 }
 
 .ysmb{
-    position:absolute;
-    top: 411px;
+    position: relative;;
+    top: -633px;
     height: 630px;
     width: 300px;
     background-color: black;
@@ -357,7 +358,7 @@ body{
 .yxfx{
     font: normal 12px/1.6em Microsoft YaHei,Tahoma,simsun;
     position: relative;
-    top: -600px;
+    top: -1200px;
     left: 40px;
     color: white;
 }
@@ -444,7 +445,7 @@ dd {
 .gs {
     padding: 35px;
     position: relative;
-    top: -150px;
+    top: -760px;
     float: left;
     width: 623px;
     height: 135px;
@@ -460,7 +461,7 @@ dd {
 
 .jnjs{
     position: relative;
-    top: 230px;
+    top: -400px;
     left: 339px;
     width: 700px;
     height: 300px;
@@ -533,4 +534,9 @@ dd {
 
 .jnxs{
     display: none;
+}
+
+.zbtp{
+    position: relative;
+    top: -350px;
 }
